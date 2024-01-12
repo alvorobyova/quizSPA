@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "MuseoSans";
+    font-weight: 500;
+    src: url("/fonts/museosanscyrl-500.ttf");
+}
+
+@font-face {
+    font-family: "MuseoSans";
+    font-weight: 700;
+    src: url("/fonts/museosanscyrl-700.ttf");
+}
+
+body {
+    font-family: 'MuseoSans', sans-serif;
+    font-weight: 500;
+    color: #333333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0;
+    border-bottom: 1px solid #DCDCF3;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    margin-right: 5px;
+}
+
+.profile-user {
+    font-size: 18px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.profile-logout {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.button {
+    font-family: 'MuseoSans', sans-serif;
+    padding: 14px 35px;
+    color:white;
+    background: #6933DC;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 20px;
+    border: 0;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+}
+
+a.button {
+    display: inline-block;
+}
+
+.button:hover {
+    background: #521ec1;
+}
+
+.button:disabled{
+    cursor: not-allowed;
+    background: #e2dfe7;
+}
+
+.button-transparent {
+    border: 1px solid #6933DC;
+    background: transparent;
+    padding: 14px;
+    width: 132px;
+    color: #6933DC;
+}
+
+.button-transparent:hover {
+    background-color: #6933DC;
+    color: white;
+}
+
+.button-transparent:disabled{
+    border: 1px solid #e2dfe7;
+    background: transparent;
+    color: #e2dfe7;
+}
+
+.big-title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 65px;
+}
+
+.big-title span {
+    color: #6933DC;
+}
+
+.footer {
+    padding: 40px 0;
+    text-align: center;
+    color: #DCDCF3;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+a {
+    color: #6933DC;
+}
+
+.common-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.common-title span {
+    color: #6933DC;
+}

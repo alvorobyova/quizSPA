@@ -1,4 +1,4 @@
-## JavaScript knowledge quiz
+## JavaScript knowledge quiz ❓
 
 The quiz is displayed correctly on all screen sizes (320px-1920px).
 
